@@ -1,0 +1,18 @@
+---How memory is managed in Python?
+
+In python internally Head Data Structure is used.
+
+---What is the purpose continue statement in python?
+
+Continue statement  is used to skip the remaining code inside a loop for the current cycle only.
+
+
+True  Java Python  10 20 1 2 False 100 200
+1 2 1.1 2.2 tops True Java Python 10 20
+1.1 True 10 2 200
+1 True 1 1000
+1.1 2.2 tops True Java Python 10 20 1 2
+1 2 1.1 2.2 tops True Java Python 10 20 1 2 False 100 200
+2.2 tops True Java Python 10 20 1 2 False 100 200 1000 2000
+2 tops Python 1 100
+2000 100 1 Python tops 2
